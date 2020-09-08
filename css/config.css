@@ -1,3 +1,8 @@
 .advanced-options-button span{
     color: red;
 }
+
+.position-apply-button {
+    color: red !important;
+    border: 10px solid blue !important;
+}
