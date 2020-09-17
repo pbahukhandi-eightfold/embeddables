@@ -5,27 +5,8 @@
 <body>
     <iframe name="efPcsSearch" id="efPcsSearch"
         src="https://app.eightfold.ai/careers/join/embed?widget=talent_network_widget&domain=eightfolddemo-kb2.com"
-        title="search" style="z-index: 100000000;width :100%;height:100%;">
+        title="search" style="z-index: 100000000;width :100%;height:100%; border: 1px solid red; ">
     </iframe>
 </body>
-<script type='text/javascript'>
-
-    //Search Embedded Config
-    var talentPoolEmbedConfig = {
-        visibilityConfig: {
-            showAdvancedFilterOptions: true,
-            showLocationFilterOption: true,
-            showSearchFilterOption: true,
-        },
-        textConfig: {
-            submitButtonText: 'Go',
-            advancedOptionText: 'More Options'
-        },
-        cssConfigUrl: encodeURIComponent('https://raw.githubusercontent.com/prabhatbahukhandi/embeddables/master/css/config.css')
-    };
-
-    // js snippet for handling  configuration options
-    !function () { if (talentPoolEmbedConfig) { var e = document.getElementById("efPcsSearch").src; document.getElementById("efPcsSearch").src = e + "&config=" + JSON.stringify(talentPoolEmbedConfig) } }();
-</script>
 
 </html>
